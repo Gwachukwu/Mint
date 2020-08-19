@@ -1,0 +1,31 @@
+.page {
+  flex: 8;
+  height: 100rem;
+  background-color: #e5e5e5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.transactions {
+  display: flex;
+  justify-content: space-evenly;
+}
+.transactions-card {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #eef8fd;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+.transactions-card p:not(.transactions-figure){
+    color: #787C90;
+}
+.transactions-figure {
+  font-size: 18px;
+  line-height: 24px;
+}
+.hide {
+  display: none;
+}

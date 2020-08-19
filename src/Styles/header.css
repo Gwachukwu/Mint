@@ -25,11 +25,7 @@
 }
 .search-icon {
   content: url(../Images/search-icon.svg);
-  padding: 0 0.5rem;
-  cursor: pointer;
-}
-.bell-icon {
-  content: url(../Images/bell.svg);
+  margin: 0rem 0.6rem;
   cursor: pointer;
 }
 .bell {

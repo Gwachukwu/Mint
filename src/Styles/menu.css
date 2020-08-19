@@ -1,0 +1,38 @@
+.main-body {
+  display: flex;
+  width: 98.6vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu {
+  flex: 2;
+  height: 100rem;
+}
+.menu button {
+  padding: 0.5rem 1rem;
+  background: #27ae60;
+  color: #fff;
+  border: 1px solid #27ae60;
+  border-radius: 30px;
+  margin: 2rem auto 1rem 2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.menu button:hover {
+  background: #fff;
+  color: #27ae60;
+}
+.menu div p {
+  font-size: 11px;
+  padding: 0.5rem 2rem;
+}
+.menu div p i {
+  margin-right: 1rem;
+}
+.active {
+  background-color: rgba(24, 117, 240, 0.1);
+  border-left: 3px solid #1875F0;
+}

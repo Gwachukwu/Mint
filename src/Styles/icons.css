@@ -1,0 +1,31 @@
+.bell-icon {
+    content: url(../Images/bell.svg);
+    cursor: pointer;
+  }
+.overview{
+    content: url(../Images/overview-icon.svg);
+}
+.a-payments{
+    content: url(../Images/allpayment-icon.svg);
+}
+.r-payments{
+    content: url(../Images/Rpayment-icon.svg);
+}
+.u-payments{
+    content: url(../Images/URpayment-icon.svg);
+}
+.m-settlement{
+    content: url(../Images/Msettlement-icon.svg);
+}
+.a-orders{
+    content: url(../Images/allorders.svg);
+}
+.p-orders{
+    content: url(../Images/Porders.svg);
+}
+.r-orders{
+    content: url(../Images/Rorders.svg);
+}
+.m-profile{
+    content: url(../Images/Mprofile.svg);
+}
