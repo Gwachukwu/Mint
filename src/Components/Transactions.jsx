@@ -10,9 +10,9 @@ const Transactions = () => {
   ]);
   return (
     <div className="transactions">
-      {state.map((obj) => {
+      {state.map((obj,index) => {
         return (
-          <div className="transactions-card">
+          <div className="transactions-card" key={index}>
             <div>
               <p>{obj.title}</p>
               <p className="transactions-figure">
