@@ -10,28 +10,114 @@
   justify-content: space-between;
   margin-right: 20%;
 }
-.payment-number{
-  color: #1875F0;
+.payment-number {
+  color: #1875f0;
   border: none;
   background-color: inherit;
   margin: 0 1rem;
 }
-.payments-search{
+.payments-search {
   display: inline-block;
   border-bottom: 0.5px solid #787878;
   width: 20rem;
   margin-left: 2rem;
 }
-.payments-search input{
+.payments-search input {
   border: none;
   background-color: inherit;
   width: 90%;
 }
-.payments-show select{
-  border: 1px solid #CED0DA;
-box-sizing: border-box;
-border-radius: 2px;
-background-color: inherit;
-padding: 0.4rem;
-margin-left: 0.2rem;
+.payments-show select {
+  border: 1px solid #ced0da;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: inherit;
+  padding: 0.4rem;
+  margin-left: 0.2rem;
+}
+table {
+  border: 1px solid black;
+}
+td,
+th {
+  border-bottom: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 95%;
+  text-align: left;
+  background-color: #fff;
+  margin: 1rem 2rem;
+  color: #7f8fa4;
+}
+
+th {
+  height: 50px;
+  background-color: #eaeef0;
+}
+.table-index {
+  background-color: #7f8fa4;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border-radius: 50%;
+  font-weight: lighter;
+}
+.big-dot {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.table-button {
+  margin-left: 2rem;
+  border: 1px solid #cccfd4;
+  border-radius: 30px;
+  width: 10rem;
+  height: 2rem;
+  font-size: 12px;
+  text-align: center;
+  background-color: inherit;
+  color: #7f8fa4;
+}
+.down-arrow {
+  transform: translateY(0.5rem);
+  margin-left: 3rem;
+}
+td,
+th {
+  padding: 1rem;
+}
+.Pending{
+  color: #7f8fa4;
+}
+.Pending div{
+  background-color: #7f8fa4;
+}
+.Reconciled{
+  color: #27AE60;
+}
+.Reconciled div{
+  background-color: #27AE60;
+}
+.Un-reconciled{
+  color: #EBC315;
+}
+.Un-reconciled div{
+  background-color: #EBC315;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 2rem;
+}
+.footer a{
+  border: 1px solid #979797;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+.active-page{
+  color: #fff;
+  background-color: #1875F0;
 }

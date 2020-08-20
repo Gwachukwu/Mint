@@ -29,3 +29,12 @@
 .m-profile{
     content: url(../Images/Mprofile.svg);
 }
+.left-arrow{
+    content: url(../Images/left-arrow.svg);
+}
+.right-arrow{
+    content: url(../Images/right-arrow.svg);
+}
+.down-arrow{
+    content: url(../Images/arrow-down.svg);
+}

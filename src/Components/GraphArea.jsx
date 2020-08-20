@@ -8,13 +8,19 @@ const GraphArea = () => {
       <div className="graph">
         <div>
           <div className="graph-head">
-            <p className="graph-date">Today:{`${arr[2]}, ${arr[1]} ${arr[3]}`}</p>
+            <p className="graph-date">
+              Today:{`${arr[2]}, ${arr[1]} ${arr[3]}`}
+            </p>
             <div>
-            <select name="" id="">
-              <option value="">1 Jan- 1 Jun</option>
-            </select>
-            <button className="graph-button-gap">&lt;</button>
-            <button>&gt;</button>
+              <select name="" id="">
+                <option value="">1 Jan- 1 Jun</option>
+              </select>
+              <button className="graph-button-gap">
+                <i className="left-arrow"></i>
+              </button>
+              <button>
+                <i className="right-arrow"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -30,7 +36,9 @@ const GraphArea = () => {
       <div className="graph-aside">
         <div className="graph-aside-first">
           <p className="aside-header"> Orders</p>
-          <div className="progress-bar"><div></div></div>
+          <div className="progress-bar">
+            <div></div>
+          </div>
           <p>
             Pending Orders: <span className="yellow-number">20</span>
           </p>
@@ -43,7 +51,9 @@ const GraphArea = () => {
         </div>
         <div className="graph-aside-second">
           <p className="aside-header">Payments</p>
-          <div className="progress-bar"><div></div></div>
+          <div className="progress-bar">
+            <div></div>
+          </div>
           <p>
             Pending Payments: <span className="yellow-number">20</span>
           </p>
