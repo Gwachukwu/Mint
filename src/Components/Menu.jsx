@@ -11,6 +11,7 @@ const Menu = () => {
           className={
             state === "overview" ? "active clickable-menu" : "clickable-menu"
           }
+          onClick={() => setState("overview")}
         >
           <i className="overview"></i>Overview
         </p>
