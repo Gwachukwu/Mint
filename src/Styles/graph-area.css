@@ -1,7 +1,6 @@
 .graph-area {
   display: flex;
   margin: 0 2rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 /* .graph-area div {
   background-color: #fff;
@@ -93,12 +92,9 @@
   color: #1875f0;
   font-weight: bold;
 }
-/* .graph-aside-first{
-    background-color: cyan !important;
-} */
 .graph-aside-first,.graph-aside-second{
     background-color: #fff;
 }
 .graph-aside-first{
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.2rem;
 }

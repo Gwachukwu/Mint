@@ -1,7 +1,6 @@
 .main-body {
   display: flex;
   width: 98.6vw;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .menu {
   flex: 2;

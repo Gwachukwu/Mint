@@ -1,0 +1,37 @@
+.payments-header {
+  font-size: 36px;
+  line-height: 48px;
+  margin: 2rem;
+}
+.payments-settings {
+  display: flex;
+  font-size: 13px;
+  line-height: 17px;
+  justify-content: space-between;
+  margin-right: 20%;
+}
+.payment-number{
+  color: #1875F0;
+  border: none;
+  background-color: inherit;
+  margin: 0 1rem;
+}
+.payments-search{
+  display: inline-block;
+  border-bottom: 0.5px solid #787878;
+  width: 20rem;
+  margin-left: 2rem;
+}
+.payments-search input{
+  border: none;
+  background-color: inherit;
+  width: 90%;
+}
+.payments-show select{
+  border: 1px solid #CED0DA;
+box-sizing: border-box;
+border-radius: 2px;
+background-color: inherit;
+padding: 0.4rem;
+margin-left: 0.2rem;
+}

@@ -2,7 +2,6 @@
   flex: 8;
   height: 100rem;
   background-color: #e5e5e5;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .transactions {
   display: flex;
